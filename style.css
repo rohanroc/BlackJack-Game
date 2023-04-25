@@ -1,0 +1,99 @@
+body {
+    background-color: gold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+#heading {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 80px;
+    color: green;
+}
+
+.para {
+    font-size: larger;
+    font-weight: bold;
+}
+
+.link {
+    text-decoration: none;
+    color: green;
+    font-weight: bold;
+}
+
+.btn {
+    padding: 10px 0;
+    width: 25%;
+    margin-top: 15px;
+    font-size: larger;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: greenyellow;
+    cursor: pointer;
+    color: green;
+    border: 2px solid green;
+}
+
+.btn2 {
+    display: block;
+    margin: auto;
+    padding: 10px 0;
+    width: 25%;
+    margin-top: 10px;
+    font-size: larger;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: greenyellow;
+    cursor: pointer;
+    color: green;
+    border: 2px solid green;
+}
+
+.btn:hover {
+    scale: calc(1.1);
+    transition-duration: 0.4s;
+}
+
+.btn2:hover {
+    scale: calc(1.1);
+    transition-duration: 0.4s;
+}
+
+@media screen and (max-width: 420px) {
+    .btn {
+        padding: 10px 0;
+        width: 50%;
+        margin-top: 15px;
+        font-size: larger;
+        font-weight: bold;
+        border-radius: 5px;
+        background-color: greenyellow;
+        cursor: pointer;
+        color: green;
+        border: 2px solid green;
+    }
+
+    .btn2 {
+        display: block;
+        margin: auto;
+        padding: 10px 0;
+        width: 50%;
+        margin-top: 10px;
+        font-size: larger;
+        font-weight: bold;
+        border-radius: 5px;
+        background-color: greenyellow;
+        cursor: pointer;
+        color: green;
+        border: 2px solid green;
+    }
+
+    .btn:hover {
+        border: 2px solid antiquewhite;
+    }
+
+    .btn2:hover {
+        border: 2px solid antiquewhite;
+    }
+}
